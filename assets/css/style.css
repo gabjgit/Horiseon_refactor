@@ -20,7 +20,7 @@ h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -30,20 +30,15 @@ nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header {
     list-style-type: none;
+  
 }
 
-nav li {
-    display: inline-block;
-    margin-left: 25px;
-}
 
 a {
     color: #ffffff;
     text-decoration: none;
+    margin-left: 25px;
 }
 
 p {
