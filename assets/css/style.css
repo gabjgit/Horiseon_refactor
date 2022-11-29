@@ -1,3 +1,4 @@
+/* universal selector - styles the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,7 +20,7 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* different color within the Horiseon logo */
 .seo {
     color: #d9dcd6;
 }
