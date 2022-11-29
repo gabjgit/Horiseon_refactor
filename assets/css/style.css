@@ -20,6 +20,7 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* different color within the Horiseon logo */
 .seo {
     color: #d9dcd6;
@@ -32,18 +33,15 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-  
 }
+
 /* element selector - link */
 a {
     color: #ffffff;
     text-decoration: none;
     margin-left: 25px;
 }
-/* element selector -paragraph */
-p {
-    font-size: 16px;
-}
+
 /* class selector */
 .hero {
     height: 800px;
@@ -53,20 +51,49 @@ p {
     background-size: cover;
     background-position: center;
 }
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+
 /* main */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+main img {
+    max-height: 200px;
+}
+
+/* element selector -paragraph */
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* renamed SEO to section */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* removed SEO and replaced with h2 selector*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* omitted benefits and replaced with aside */
 aside {
     margin-right: 20px;
@@ -78,10 +105,12 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-article{
+
+article {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -91,34 +120,15 @@ article img {
     margin: 10px auto;
     max-width: 150px;
 }
-/* renamed SEO to section */
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* omitted redundant class selectors */
-
-main img {
-    max-height: 200px;
-}
-/* removed SEO and replaced with h2 selector*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* omitted redundant classes */
-
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
  footer h2 {
     font-size: 20px;
 }
