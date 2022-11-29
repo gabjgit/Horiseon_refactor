@@ -11,7 +11,10 @@ N/A
 ## Screenshot
 ![Screenshot](./assets/images/gabjgit.github.io_Horiseon_refactor_.png)
 
-## Usage
+### Link to deployed page:
+https://gabjgit.github.io/Horiseon_refactor
+
+### Usage
 This webpage can be viewed using most dektop browsers. It is not yet formatted for mobile devices and/ or smaller screens.
 
 ### Credits
