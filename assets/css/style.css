@@ -33,7 +33,6 @@ nav {
     list-style-type: none;
   
 }
-
 /* element selector - link */
 a {
     color: #ffffff;
@@ -53,12 +52,10 @@ p {
     background-size: cover;
     background-position: center;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
@@ -80,27 +77,19 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 article{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
-
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
-
 article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 /* renamed SEO to section */
 section {
     margin-bottom: 20px;
@@ -123,13 +112,12 @@ h2 {
 
 /* omitted redundant classes */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+ footer h2 {
     font-size: 20px;
 }
